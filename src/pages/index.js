@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import ContactForm from "../components/contactform"
 
 
 const IndexPage = () => (
@@ -8,6 +9,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <h1>hey</h1>
     <p>welcome</p>
+    <ContactForm/>
   </Layout>
 )
 
