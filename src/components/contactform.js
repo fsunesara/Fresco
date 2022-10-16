@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 export default class ContactForm extends Component {
     render() {
         return (
-            <form name="contact" method="POST" netlify>
+            <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
                 <input type="hidden" name="form-name" value="contact" />
                 <div>
                     <label for="nameInput" class="form-label">Name</label>
