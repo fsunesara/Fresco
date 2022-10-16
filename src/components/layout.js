@@ -8,15 +8,18 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 
-import "./layout.css"
+
 import "./bootstrap.min.css"
+import "./layout.css"
 
 import NavBar from "./navbar"
 
 const Layout = ({ children }) => (
     <>
       <NavBar />
-      {children}
+      <div>
+        {children}
+      </div>
     </>
 );
 

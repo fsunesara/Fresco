@@ -15,6 +15,11 @@ export default class NavBar extends Component {
                 id:2,
                 path:'/about',
                 text:'About'
+            },
+            {
+                id:3,
+                path:'/contact',
+                text:'Contact'
             }
         ]
     }
@@ -42,8 +47,7 @@ export default class NavBar extends Component {
                     })
                 }
             </ul>
-
         </div>
-       </nav>
+        </nav>
     }
 }

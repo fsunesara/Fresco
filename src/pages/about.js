@@ -2,11 +2,11 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>hey</h1>
-    <p>welcome</p>
+    <h1>About Us</h1>
+    <p>We are Fresco, a supermarket specializing in providing top quality meats and produce at great prices to the southeast Houston area.</p>
   </Layout>
 )
 
@@ -15,6 +15,6 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="About Us" />
 
-export default IndexPage
+export default AboutPage
